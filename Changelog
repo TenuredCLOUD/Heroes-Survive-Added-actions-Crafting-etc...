@@ -17,3 +17,6 @@ Found lots of bugs & exploits, they should now be patched in this version
 -Added redundant hint while adding a battery to electronics, this should help with the "freezing" error in MP
 
 ---------------------------------------------------------------------
+8/22/21
+Small patch to Purifycanteen script (fix for water bottle being returned rather than canteen)
+---------------------------------------------------------------------
