@@ -1,4 +1,4 @@
-//Purify Canteen by: TenuredCLOUD v0.2
+//Purify Canteen by: TenuredCLOUD v0.3
 
 player removeAction playerPCaddaction;
 sleep 0.1;
@@ -16,7 +16,7 @@ _random = random 1;
 if (_random > 0.50) then {
 playsound "additemok";
 hint "You purified some water!";
-_type = selectrandom ["herl_dri_watera","herl_dri_watera"];
+_type = selectrandom ["herl_dri_Canteen","herl_dri_Canteen"];
 player removeitem "herl_mb_waterpur";
 player removeitem "herl_ma_Canteen";
 sleep 0.1;
@@ -26,7 +26,7 @@ player setVariable ["PurifyCActivated",0,true];
 } else {
   playsound "additemok";
   hint "You purified some water!";
-  _type = selectrandom ["herl_dri_watera","herl_dri_watera"];
+  _type = selectrandom ["herl_dri_Canteen","herl_dri_Canteen"];
   player removeitem "herl_mb_waterpur";
   player removeitem "herl_ma_Canteen";
   sleep 0.1;
